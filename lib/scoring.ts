@@ -56,9 +56,24 @@ export function scoreProduct(p: ProductLite, prefs: Prefs) {
   return score
 }
 
-export function rankProducts(products: ProductLite[], prefs: Prefs, topN = 5) {
+/**
+ * Devuelve los productos ordenados SIN mutarlos ni añadir campos extra.
+ * Así mantiene el tipo original (Product/ProductLite) y evita errores TS.
+ */
+export function rankProducts<T extends ProductLite>(products: T[], prefs: Prefs, topN = 5): T[] {
+  const scored = products.map(p => ({ p, s: scoreProduct(p, prefs) }))
+  scored.sort((a, b) => b.s - a.s)
+  return scored.slice(0, topN).map(x => x.p)
+}
+
+/**
+ * (Opcional) Si quieres el score para logs/analítica sin romper tipos:
+ */
+export function rankProductsWithScore<T extends ProductLite>(
+  products: T[], prefs: Prefs, topN = 5
+): Array<{ product: T; score: number }> {
   return products
-    .map(p => ({ ...p, _score: scoreProduct(p, prefs) }))
-    .sort((a,b) => b._score - a._score)
+    .map(p => ({ product: p, score: scoreProduct(p, prefs) }))
+    .sort((a, b) => b.score - a.score)
     .slice(0, topN)
 }

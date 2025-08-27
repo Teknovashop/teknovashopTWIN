@@ -1,40 +1,6 @@
 'use client'
-
 import { useState } from 'react'
 import Questionnaire from '@/components/Questionnaire'
-import ProductCard, { type Product } from '@/components/ProductCard'
-
-type Result = { ok: boolean; copy?: string; products?: Product[]; error?: string }
-
-export default function Page() {
-  const [result, setResult] = useState<Result | null>(null)
-
-  return (
-    <main className="space-y-6">
-      <section className="rounded-2xl bg-gradient-to-br from-gray-900 to-gray-700 text-white p-6 sm:p-10 shadow-soft">
-        <h2 className="text-3xl sm:text-4xl font-bold">Tu clon de compras por IA</h2>
-        <p className="mt-2 text-gray-200 max-w-2xl">Cuéntanos tu estilo y presupuesto. Te preparamos un mini-carrito inteligente con 3 productos perfectos. 100% automático.</p>
-        <ul className="mt-4 grid sm:grid-cols-3 gap-3 text-sm text-gray-200">
-          <li>• Personalizado a tu estilo</li>
-          <li>• Mejores valoraciones y top ventas</li>
-          <li>• Links de compra directa</li>
-        </ul>
-      </section>
-
-      <Questionnaire onResults={(data: Result) => setResult(data)} />
-
-      {result?.ok && result.products && (
-        <section className="space-y-4">
-          <h3 className="text-xl font-semibold">Tu selección inteligente</h3>
-          {result.copy ? <p className="text-gray-700">{result.copy}</p> : null}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {result.products.map((p) => <ProductCard key={p.id} p={p} />)}
-          </div>
-          <p className="text-xs text-gray-500">Los enlaces pueden contener afiliados. Los precios pueden variar.</p>
-        </section>
-      )}
-
-      {result && !result.ok && <p className="text-red-600">{result.error}</p>}
-    </main>
-  )
-}
+import ProductCard,{ type Product } from '@/components/ProductCard'
+ type Result={ok:boolean;copy?:string;products?:Product[];error?:string}
+export default function Page(){const[result,setResult]=useState<Result|null>(null);return(<main className="space-y-6"><section className="rounded-2xl bg-gradient-to-br from-gray-900 to-gray-700 text-white p-6 sm:p-10 shadow-soft"><h2 className="text-3xl sm:text-4xl font-bold">Tu clon de compras por IA</h2><p className="mt-2 text-gray-200 max-w-2xl">Cuéntanos tu estilo y presupuesto. Te preparamos un mini-carrito inteligente con 3 productos perfectos. 100% automático.</p><ul className="mt-4 grid sm:grid-cols-3 gap-3 text-sm text-gray-2 00"><li>• Personalizado a tu estilo</li><li>• Mejores valoraciones y top ventas</li><li>• Links de compra directa</li></ul></section><Questionnaire onResults={(data:Result)=>setResult(data)}/>{result?.ok&&result.products&&(<section className="space-y-4"><h3 className="text-xl font-semibold">Tu selección inteligente</h3>{result.copy?<p className="text-gray-700">{result.copy}</p>:null}<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">{result.products.map((p)=><ProductCard key={p.id} p={p}/>)}</div><p className="text-xs text-gray-500">Los enlaces pueden contener afiliados. Los precios pueden variar.</p></section>)}{result&&!result.ok&&<p className="text-red-600">{result.error}</p>}</main>)}

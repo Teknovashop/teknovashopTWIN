@@ -1,0 +1,26 @@
+import type { Metadata } from 'next'
+import './globals.css'
+
+export const metadata: Metadata = {
+  title: 'Teknovashop • Shopping Twin IA',
+  description: 'Tu clon de compras por IA: encuentra lo ideal para ti en segundos.',
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="es">
+      <body className="min-h-screen antialiased">
+        <div className="max-w-6xl mx-auto p-4">
+          <header className="flex items-center justify-between py-6">
+            <h1 className="text-2xl font-bold">🛍️ Teknovashop <span className="text-gray-500">Shopping Twin IA</span></h1>
+            <a href="https://teknovashop.com" className="text-sm text-gray-600 hover:underline">teknovashop.com</a>
+          </header>
+          {children}
+          <footer className="text-center text-xs text-gray-500 py-10">
+            © {new Date().getFullYear()} Teknovashop. Recomendaciones personalizadas por IA. Afiliados aplican.
+          </footer>
+        </div>
+      </body>
+    </html>
+  )
+}

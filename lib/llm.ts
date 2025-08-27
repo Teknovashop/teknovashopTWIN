@@ -1,0 +1,37 @@
+export async function generateCopy(input: { prefsSummary: string, productSummary: string }): Promise<string> {
+  const apiKey = process.env.OPENAI_API_KEY
+  const baseUrl = process.env.LLM_BASE_URL // e.g., http://localhost:1234/v1 for LM Studio
+  const model = process.env.LLM_MODEL || 'gpt-4o-mini'
+  const prompt = `Eres un copywriter de e-commerce. Con un tono cercano, en español de España, escribe un párrafo breve (70-120 palabras) recomendando un mini-carrito de productos.
+PREFERENCIAS: ${input.prefsSummary}
+PRODUCTOS: ${input.productSummary}
+Incluye 1 frase sobre por qué encaja con el estilo y 1 mini-beneficio único por producto. No repitas marcas. Sin emojis.`
+
+  try {
+    if (!apiKey && !baseUrl) {
+      // Fallback copy when no LLM available
+      return `Hemos seleccionado estas opciones equilibrando tu presupuesto, estilo y valoraciones. Buscamos el mejor equilibrio calidad/precio con un toque ${input.prefsSummary.toLowerCase()}. Es un set compacto pensado para que empieces hoy sin complicaciones.`
+    }
+    const res = await fetch((baseUrl || 'https://api.openai.com/v1') + '/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        ...(apiKey ? { 'Authorization': `Bearer ${apiKey}` } : {})
+      },
+      body: JSON.stringify({
+        model,
+        messages: [
+          { role: 'system', content: 'Eres un experto en copy de e-commerce.'},
+          { role: 'user', content: prompt }
+        ],
+        temperature: 0.7
+      })
+    })
+    if (!res.ok) throw new Error('LLM request failed')
+    const data = await res.json()
+    const text = data?.choices?.[0]?.message?.content?.trim()
+    return text || 'Selección optimizada para tu estilo y presupuesto.'
+  } catch (e) {
+    return 'Selección optimizada para tu estilo y presupuesto.'
+  }
+}

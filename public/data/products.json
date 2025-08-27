@@ -1,0 +1,318 @@
+[
+  {
+    "id": "fit-001",
+    "title": "Mancuernas Ajustables 2x24 kg",
+    "brand": "StrongFit",
+    "category": "fitness",
+    "price": 199.99,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1596357395104-5d1649ba1f15?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF01?tag=AFFILIATE_TAG",
+    "tags": [
+      "alto rendimiento",
+      "home gym",
+      "top rated",
+      "m\u00e1s vendido",
+      "acero"
+    ],
+    "description": "Mancuernas ajustables con selector r\u00e1pido, ideales para entrenar fuerza en casa ahorrando espacio."
+  },
+  {
+    "id": "fit-002",
+    "title": "Cinta de Correr Plegable 2.5 HP",
+    "brand": "RunLite",
+    "category": "fitness",
+    "price": 329.0,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF02?tag=AFFILIATE_TAG",
+    "tags": [
+      "compacto",
+      "low-cost",
+      "bajo consumo",
+      "top ventas"
+    ],
+    "description": "Cinta compacta y plegable con amortiguaci\u00f3n, perfecta para cardio diario sin salir de casa."
+  },
+  {
+    "id": "fit-003",
+    "title": "Banda de Resistencia Premium (Set x5)",
+    "brand": "FlexPro",
+    "category": "fitness",
+    "price": 24.9,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF03?tag=AFFILIATE_TAG",
+    "tags": [
+      "b\u00e1sico",
+      "low-cost",
+      "equilibrado",
+      "top rated"
+    ],
+    "description": "Pack de bandas el\u00e1sticas con diferentes resistencias y anclajes. Entrena en cualquier lugar."
+  },
+  {
+    "id": "fit-004",
+    "title": "Smartwatch Deportivo GPS",
+    "brand": "PulseX",
+    "category": "fitness",
+    "price": 109.0,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF04?tag=AFFILIATE_TAG",
+    "tags": [
+      "minimalista",
+      "equilibrado",
+      "top ventas",
+      "bajo consumo"
+    ],
+    "description": "Reloj deportivo con GPS, control de sue\u00f1o y bater\u00eda de larga duraci\u00f3n. Ideal para running y gym."
+  },
+  {
+    "id": "tech-001",
+    "title": "Auriculares Bluetooth ANC Over-Ear",
+    "brand": "SoundPeak",
+    "category": "tecnologia",
+    "price": 89.99,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1518441902114-2d03934f9a5e?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF05?tag=AFFILIATE_TAG",
+    "tags": [
+      "minimalista",
+      "calidad-precio",
+      "top rated",
+      "viaje"
+    ],
+    "description": "Cancelaci\u00f3n activa de ruido, 40h de autonom\u00eda y sonido equilibrado para trabajo y ocio."
+  },
+  {
+    "id": "tech-002",
+    "title": "Port\u00e1til 14'' i7 16GB/512GB NVMe",
+    "brand": "ZenBooker",
+    "category": "tecnologia",
+    "price": 899.0,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF06?tag=AFFILIATE_TAG",
+    "tags": [
+      "premium",
+      "aluminio",
+      "pro",
+      "alto rendimiento",
+      "2025"
+    ],
+    "description": "Ultrabook ligero con gran autonom\u00eda y potencia para productividad y edici\u00f3n ligera."
+  },
+  {
+    "id": "tech-003",
+    "title": "Monitor 27'' 2K 165Hz IPS",
+    "brand": "FrameFast",
+    "category": "tecnologia",
+    "price": 249.0,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF07?tag=AFFILIATE_TAG",
+    "tags": [
+      "gaming",
+      "alto rendimiento",
+      "fps",
+      "top ventas"
+    ],
+    "description": "Panel IPS con alta tasa de refresco y gran fidelidad de color. Ideal para gaming y trabajo."
+  },
+  {
+    "id": "tech-004",
+    "title": "SSD Externo 1TB USB-C",
+    "brand": "FlashMate",
+    "category": "tecnologia",
+    "price": 89.0,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF08?tag=AFFILIATE_TAG",
+    "tags": [
+      "compacto",
+      "equilibrado",
+      "top rated"
+    ],
+    "description": "Almacenamiento port\u00e1til ultra r\u00e1pido con carcasa resistente. Copias de seguridad al instante."
+  },
+  {
+    "id": "home-001",
+    "title": "Robot Aspirador con Mapeo L\u00e1ser",
+    "brand": "CleanOrbit",
+    "category": "hogar",
+    "price": 219.0,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF09?tag=AFFILIATE_TAG",
+    "tags": [
+      "bajo consumo",
+      "top ventas",
+      "equilibrado"
+    ],
+    "description": "Limpieza autom\u00e1tica con rutas inteligentes y control por app. Apta para mascotas."
+  },
+  {
+    "id": "home-002",
+    "title": "Cafetera Espresso 15 Bar",
+    "brand": "BaristaGo",
+    "category": "hogar",
+    "price": 79.9,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1503481766315-7a586b20f66b?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF10?tag=AFFILIATE_TAG",
+    "tags": [
+      "low-cost",
+      "top rated",
+      "compacto"
+    ],
+    "description": "Caf\u00e9s intensos con crema en casa. Dep\u00f3sito extra\u00edble y vaporizador para cappuccino."
+  },
+  {
+    "id": "home-003",
+    "title": "Purificador de Aire HEPA H13",
+    "brand": "AirZen",
+    "category": "hogar",
+    "price": 119.0,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1621583441035-a8e44bd0df62?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF11?tag=AFFILIATE_TAG",
+    "tags": [
+      "bajo consumo",
+      "top rated",
+      "silencioso",
+      "reciclado"
+    ],
+    "description": "Filtra polvo, polen y olores. Ideal para al\u00e9rgicos. Modo nocturno silencioso."
+  },
+  {
+    "id": "fashion-001",
+    "title": "Zapatillas Urbanas Minimal",
+    "brand": "NordWalk",
+    "category": "moda",
+    "price": 59.9,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF12?tag=AFFILIATE_TAG",
+    "tags": [
+      "minimalista",
+      "top ventas",
+      "ligero"
+    ],
+    "description": "Dise\u00f1o limpio y vers\u00e1til. Combinan con todo y son c\u00f3modas para el d\u00eda a d\u00eda."
+  },
+  {
+    "id": "fashion-002",
+    "title": "Chaqueta Impermeable Eco",
+    "brand": "GreenShell",
+    "category": "moda",
+    "price": 89.0,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF13?tag=AFFILIATE_TAG",
+    "tags": [
+      "ecol\u00f3gico",
+      "reciclado",
+      "ligero"
+    ],
+    "description": "Te protege del viento y la lluvia con materiales reciclados y transpirables."
+  },
+  {
+    "id": "game-001",
+    "title": "Silla Gaming Ergon\u00f3mica",
+    "brand": "ErgoX",
+    "category": "gaming",
+    "price": 159.0,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1598550487031-0549575a6b65?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF14?tag=AFFILIATE_TAG",
+    "tags": [
+      "gaming",
+      "alto rendimiento",
+      "fps"
+    ],
+    "description": "Dise\u00f1o ergon\u00f3mico con soporte lumbar y reposabrazos ajustables para sesiones largas."
+  },
+  {
+    "id": "game-002",
+    "title": "Teclado Mec\u00e1nico RGB 75%",
+    "brand": "KeyWave",
+    "category": "gaming",
+    "price": 79.0,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF15?tag=AFFILIATE_TAG",
+    "tags": [
+      "gaming",
+      "premium",
+      "switches",
+      "bestseller"
+    ],
+    "description": "Formato compacto con switches hot-swap y retroiluminaci\u00f3n RGB personalizable."
+  },
+  {
+    "id": "fit-005",
+    "title": "Suplemento Prote\u00edna Aislada 1kg",
+    "brand": "PureLift",
+    "category": "fitness",
+    "price": 26.9,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1579722820308-d74e5713b6aa?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF16?tag=AFFILIATE_TAG",
+    "tags": [
+      "calidad-precio",
+      "top ventas",
+      "bajo az\u00facar"
+    ],
+    "description": "Aislado de suero con buen sabor y disoluci\u00f3n. Ideal post-entreno para recuperaci\u00f3n."
+  },
+  {
+    "id": "fit-006",
+    "title": "Esterilla Yoga Antideslizante",
+    "brand": "ZenMat",
+    "category": "fitness",
+    "price": 19.9,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1599058944490-2764f01e2df9?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF17?tag=AFFILIATE_TAG",
+    "tags": [
+      "b\u00e1sico",
+      "low-cost",
+      "reciclado"
+    ],
+    "description": "Esterilla c\u00f3moda y estable con textura antideslizante. Perfecta para yoga y estiramientos."
+  },
+  {
+    "id": "tech-005",
+    "title": "C\u00e1mara Web 1080p con Micro",
+    "brand": "MeetClear",
+    "category": "tecnologia",
+    "price": 29.9,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF18?tag=AFFILIATE_TAG",
+    "tags": [
+      "low-cost",
+      "equilibrado",
+      "home office"
+    ],
+    "description": "Mejora tus videollamadas con imagen n\u00edtida y sonido claro. Plug&play USB."
+  },
+  {
+    "id": "tech-006",
+    "title": "Cargador USB-C 65W GaN (2 puertos)",
+    "brand": "NanoCharge",
+    "category": "tecnologia",
+    "price": 34.9,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1518449956251-714eb0ed2e4e?q=80&w=1200&auto=format&fit=crop",
+    "url": "https://www.amazon.es/dp/B0ABCDEF19?tag=AFFILIATE_TAG",
+    "tags": [
+      "compacto",
+      "bajo consumo",
+      "viaje",
+      "top rated"
+    ],
+    "description": "Tecnolog\u00eda GaN para carga r\u00e1pida y eficiente de port\u00e1tiles y m\u00f3viles en tama\u00f1o mini."
+  }
+]

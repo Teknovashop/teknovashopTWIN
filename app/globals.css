@@ -1,1 +1,1 @@
-@tailwind base;@tailwind components;@tailwind utilities;:root{--bg:249 250 251;--fg:17 24 39;}body{background:rgb(var(--bg));color:rgb(var(--fg));}
+@tailwind base;@tailwind components;@tailwind utilities;body{background:#f9fafb;color:#111827}

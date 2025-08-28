@@ -5,7 +5,7 @@ export function scoreProduct(p:ProductLite,prefs:Prefs){
   const cat=p.category.toLowerCase()===prefs.category.toLowerCase()?1:0.3
   const diff=Math.abs(p.price-(prefs.budget))
   const budget=Math.max(0,1-diff/Math.max(50,prefs.budget))
-  const styleTags:Record<string,string[]>={minimalista:['minimalista','sobrio','compacto','ligero'],premium:['premium','alta gama','pro','aluminio','sapphire'],lowcost:['barato','low-cost','básico','ahorro'],ecologico:['eco','reciclado','bajo consumo','eficiencia'],alto_rendimiento:['alto rendimiento','gaming','pro','potente','fps','rpm']}
+  const styleTags:Record<string,string[]>={minimalista:['minimalista','sobrio','compacto','ligero'],premium:['premium','alta gama','pro','aluminio','sapphire','lujo'],lowcost:['barato','low-cost','básico','ahorro'],ecologico:['eco','reciclado','bajo consumo','eficiencia'],alto_rendimiento:['alto rendimiento','gaming','pro','potente','fps','rpm'],retro:['retro','vintage','clásico','analogico'],juguetes:['juguete','toy','kids','niños'],deportivo:['deportivo','sport','fitness','running','gym'],lujo:['lujo','premium','alta gama','exclusivo'],outdoor:['outdoor','camping','senderismo','resistente al agua'],'smart-home':['domótica','smart','wifi','alexa','homekit']}
   const goalTags:Record<string,string[]>={'mejor calidad/precio':['valor','calidad-precio','equilibrado'],'mejor valoraciones':['top rated','mejor valorado','4.5+'],'lo mas vendido':['más vendido','bestseller','top ventas'],'novedades':['nuevo','2025','latest']}
   const audTags:Record<string,string[]>={unisex:['unisex'],hombre:['hombre','men','caballero','male'],mujer:['mujer','women','señora','female'],niños:['niños','niñas','kids','child']}
   const tags=(p.tags||[]).map(t=>t.toLowerCase())

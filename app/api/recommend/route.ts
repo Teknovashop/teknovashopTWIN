@@ -16,7 +16,8 @@ export async function POST(req: NextRequest){
       category: body.category || 'fitness',
       budget: Number(body.budget) || 100,
       style: body.style || 'minimalista',
-      goal: body.goal || 'mejor calidad/precio'
+      goal: body.goal || 'mejor calidad/precio',
+      audience: body.audience || 'unisex'
     }
     const n = Math.min(12, Math.max(3, Number(body.n) || 6))
 
@@ -28,7 +29,7 @@ export async function POST(req: NextRequest){
     const seed = Number(new Date().toISOString().slice(0,10).replace(/-/g,''))
     const top = diversify(ranked.map(r=>({ item: r.product, score: r.score })), n, 0.7, 0.2, seed)
 
-    const prefsSummary = `${prefs.style}, objetivo: ${prefs.goal}, presupuesto: ${prefs.budget}€, categoría: ${prefs.category}`
+    const prefsSummary = `${prefs.style}, objetivo: ${prefs.goal}, presupuesto: ${prefs.budget}€, categoría: ${prefs.category}, audiencia: ${prefs.audience}`
     const productSummary = top.map(p => `${p.title} (${p.price}€)`).join(' | ')
     const copy = await generateCopy({ prefsSummary, productSummary })
 

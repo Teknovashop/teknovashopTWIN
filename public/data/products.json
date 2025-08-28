@@ -6,14 +6,16 @@
     "category": "fitness",
     "price": 199.99,
     "rating": 4.6,
+    "asin": "B0CEXAMPLE",
     "image": "https://images.unsplash.com/photo-1596357395104-5d1649ba1f15?q=80&w=1200&auto=format&fit=crop",
-    "url": "https://www.amazon.es/dp/B0ABCDEF01?tag=AFFILIATE_TAG",
+    "url": "https://www.amazon.es/dp/B0CEXAMPLE",
     "tags": [
       "alto rendimiento",
       "home gym",
       "top rated",
       "m\u00e1s vendido",
-      "acero"
+      "acero",
+      "unisex"
     ],
     "description": "Mancuernas ajustables con selector r\u00e1pido, ideales para entrenar fuerza en casa ahorrando espacio."
   },
@@ -24,12 +26,15 @@
     "category": "fitness",
     "price": 24.9,
     "rating": 4.7,
+    "asin": "",
     "image": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?q=80&w=1200&auto=format&fit=crop",
-    "url": "https://www.amazon.es/dp/B0ABCDE002?tag=AFFILIATE_TAG",
+    "url": "https://www.amazon.es/s?k=esterilla+yoga",
     "tags": [
       "eco",
       "ligero",
-      "equilibrado"
+      "equilibrado",
+      "mujer",
+      "unisex"
     ],
     "description": "Esterilla de TPE reciclado, extra agarre y grosor 6mm para confort."
   },
@@ -40,12 +45,14 @@
     "category": "fitness",
     "price": 14.99,
     "rating": 4.4,
+    "asin": "",
     "image": "https://images.unsplash.com/photo-1599050751790-5cdaaa8f3c7b?q=80&w=1200&auto=format&fit=crop",
-    "url": "https://www.amazon.es/dp/B0ABCDE003?tag=AFFILIATE_TAG",
+    "url": "https://www.amazon.es/s?k=cuerda+de+saltar",
     "tags": [
       "cardio",
       "bajo coste",
-      "ligero"
+      "ligero",
+      "unisex"
     ],
     "description": "Cuerda de velocidad regulable con rodamientos y cables de acero."
   },
@@ -56,13 +63,16 @@
     "category": "tecnologia",
     "price": 249.0,
     "rating": 4.5,
+    "asin": "",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
-    "url": "https://www.amazon.es/dp/B0ABCDEF07?tag=AFFILIATE_TAG",
+    "url": "https://www.amazon.es/s?k=monitor+27+2k+165hz+ips",
     "tags": [
       "gaming",
       "alto rendimiento",
       "fps",
-      "top ventas"
+      "top ventas",
+      "hombre",
+      "unisex"
     ],
     "description": "Panel IPS con alta tasa de refresco y gran fidelidad de color. Ideal para gaming y trabajo."
   },
@@ -73,12 +83,14 @@
     "category": "hogar",
     "price": 219.0,
     "rating": 4.4,
+    "asin": "",
     "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop",
-    "url": "https://www.amazon.es/dp/B0ABCDEF09?tag=AFFILIATE_TAG",
+    "url": "https://www.amazon.es/s?k=robot+aspirador+mapeo+laser",
     "tags": [
       "bajo consumo",
       "top ventas",
-      "equilibrado"
+      "equilibrado",
+      "unisex"
     ],
     "description": "Limpieza autom\u00e1tica con rutas inteligentes y control por app. Apta para mascotas."
   },
@@ -89,12 +101,14 @@
     "category": "moda",
     "price": 59.9,
     "rating": 4.3,
+    "asin": "",
     "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1200&auto=format&fit=crop",
-    "url": "https://www.amazon.es/dp/B0ABCDEM01?tag=AFFILIATE_TAG",
+    "url": "https://www.amazon.es/s?k=zapatillas+urbanas+unisex",
     "tags": [
       "minimalista",
       "ligero",
-      "equilibrado"
+      "equilibrado",
+      "unisex"
     ],
     "description": "Sneaker vers\u00e1til de uso diario con suela c\u00f3moda y upper transpirable."
   },
@@ -105,12 +119,15 @@
     "category": "gaming",
     "price": 149.0,
     "rating": 4.5,
+    "asin": "",
     "image": "https://images.unsplash.com/photo-1616627450899-73ee3a14529d?q=80&w=1200&auto=format&fit=crop",
-    "url": "https://www.amazon.es/dp/B0ABCDEG01?tag=AFFILIATE_TAG",
+    "url": "https://www.amazon.es/s?k=silla+gaming+ergonomica",
     "tags": [
       "alto rendimiento",
       "fps",
-      "comodidad"
+      "comodidad",
+      "hombre",
+      "unisex"
     ],
     "description": "Silla con soporte lumbar ajustable y reposabrazos 4D."
   }

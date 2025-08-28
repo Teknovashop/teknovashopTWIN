@@ -1,2 +1,4 @@
-# Teknovashop • Shopping Twin IA (v3: Blob + KV)
-Cron sube catálogo a Blob y guarda puntero en KV; allProducts() lo lee con fallback local.
+# Teknovashop • Shopping Twin IA (v3.2)
+- Recomendaciones con diversidad (MMR), exploración y popularidad por clics.
+- Usuario elige N resultados (3..12).
+- Blob + KV integrados; cron diario para refresco de catálogo.

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { create } from 'zustand'
 type Prefs={name?:string;email?:string;category:string;budget:number;style:string;goal:string;n:number;audience:string}
 type Store={prefs:Prefs;setPrefs:(p:Partial<Prefs>)=>void}
-const useStore=create<Store>((set)=>({prefs:{category:'fitness',budget:100,style:'minimalista',goal:'mejor calidad/precio',n:9,audience:'unisex'},setPrefs:(p)=>set((s)=>({prefs:{...s.prefs,...p}}))}))
+const useStore=create<Store>((set)=>({prefs:{category:'fitness',budget:100,style:'minimalista',goal:'mejor calidad/precio',n:12,audience:'unisex'},setPrefs:(p)=>set((s)=>({prefs:{...s.prefs,...p}}))}))
 export default function Questionnaire({onResults}:{onResults:(data:any)=>void}){
   const {prefs,setPrefs}=useStore(); const [loading,setLoading]=useState(false); const [error,setError]=useState<string|null>(null)
   async function submit(){ setLoading(true); setError(null); try{ const res=await fetch('/api/recommend',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(prefs)}); if(!res.ok) throw new Error('Error'); onResults(await res.json()) }catch(e:any){ setError(e.message||'Error') } finally{ setLoading(false) } }

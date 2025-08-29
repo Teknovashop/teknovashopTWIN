@@ -1,15 +1,65 @@
 'use client'
-import { useState } from 'react'
-import Questionnaire from '@/components/Questionnaire'
-import ProductCard, { Product } from '@/components/ProductCard'
-export default function Page(){
-  const [data,setData]=useState<{copy:string,products:Product[]}|null>(null)
-  return(<main className='space-y-6'>
-    <Questionnaire onResults={(d)=>setData(d)} />
-    {data && (<section className='space-y-4'>
-      <h2 className='text-xl font-semibold'>Tu selección</h2>
-      <p className='text-gray-700'>{data.copy}</p>
-      <div className='grid md:grid-cols-3 gap-4'>{data.products.map(p=>(<ProductCard key={p.id} p={p}/>))}</div>
-    </section>)}
-  </main>)
+import { useEffect, useState } from 'react'
+import ProductCard from '../components/ProductCard'
+
+type Product = {
+  id?: string
+  title?: string
+  category?: string
+  price?: number
+  rating?: number
+  image?: string
+  url?: string
+  asin?: string
+  description?: string
+}
+
+export default function Home() {
+  const [items, setItems] = useState<Product[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    let cancelled = false
+    async function run() {
+      try {
+        const r = await fetch('/api/recommend', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            category: 'tecnología',
+            budget: 60,
+            style: 'moderno',
+            audience: 'unisex',
+            objective: 'mejor_cp',
+            count: 9,
+          }),
+        })
+        const data = (await r.json().catch(() => ({ items: [] }))) as any
+        if (!cancelled) setItems(Array.isArray(data?.items) ? data.items : [])
+      } catch {
+        if (!cancelled) setItems([])
+      } finally {
+        if (!cancelled) setLoading(false)
+      }
+    }
+    run()
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  return (
+    <main className="p-6">
+      <h1 className="text-2xl font-bold mb-4">Tu selección</h1>
+      {loading ? (
+        <p>Cargando…</p>
+      ) : (
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {items.map((p, i) => (
+            <ProductCard key={p.id ?? p.title ?? String(i)} p={p} />
+          ))}
+        </div>
+      )}
+    </main>
+  )
 }

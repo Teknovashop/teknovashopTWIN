@@ -13,13 +13,9 @@ export async function GET(req: Request) {
 
   let target = raw
 
-  if (provider === 'amazon') {
-    target = buildAmazonLink({ title, asin, tag })
-  } else if (provider === 'shein') {
-    target = buildSheinLink({ title, pid })
-  } else if (!raw) {
-    target = buildAmazonLink({ title, asin, tag })
-  }
+  if (provider === 'amazon') target = buildAmazonLink({ title, asin, tag })
+  else if (provider === 'shein') target = buildSheinLink({ title, pid })
+  else if (!raw) target = buildAmazonLink({ title, asin, tag })
 
   return NextResponse.redirect(target, { status: 302 })
 }

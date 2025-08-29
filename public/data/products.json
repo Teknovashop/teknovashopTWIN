@@ -6,7 +6,13 @@
     "price": 59.99,
     "rating": 4.4,
     "url": "https://www.amazon.es/s?k=Auriculares Bluetooth con cancelación de ruido",
-    "image": "https://picsum.photos/seed/auriculares-bluetooth-con-cancelación-de-ruido/800/600"
+    "style": [
+      "minimalista",
+      "moderno"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-002",
@@ -15,7 +21,12 @@
     "price": 39.9,
     "rating": 4.3,
     "url": "https://www.amazon.es/s?k=Altavoz portátil waterproof",
-    "image": "https://picsum.photos/seed/altavoz-portátil-waterproof/800/600"
+    "style": [
+      "sport"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-003",
@@ -24,7 +35,13 @@
     "price": 69.0,
     "rating": 4.2,
     "url": "https://www.amazon.es/s?k=Smartwatch deportivo unisex",
-    "image": "https://picsum.photos/seed/smartwatch-deportivo-unisex/800/600"
+    "style": [
+      "sport",
+      "moderno"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-004",
@@ -33,7 +50,12 @@
     "price": 149.0,
     "rating": 4.1,
     "url": "https://www.amazon.es/s?k=Robot aspirador slim",
-    "image": "https://picsum.photos/seed/robot-aspirador-slim/800/600"
+    "style": [
+      "minimalista"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-005",
@@ -42,7 +64,13 @@
     "price": 89.95,
     "rating": 4.3,
     "url": "https://www.amazon.es/s?k=Cafetera espresso compacta",
-    "image": "https://picsum.photos/seed/cafetera-espresso-compacta/800/600"
+    "style": [
+      "retro",
+      "clásico"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-006",
@@ -51,7 +79,12 @@
     "price": 24.5,
     "rating": 4.5,
     "url": "https://www.amazon.es/s?k=Lámpara LED de escritorio minimalista",
-    "image": "https://picsum.photos/seed/lámpara-led-de-escritorio-minimalista/800/600"
+    "style": [
+      "minimalista"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-007",
@@ -60,7 +93,12 @@
     "price": 49.9,
     "rating": 4.4,
     "url": "https://www.amazon.es/s?k=Juego de cuchillos profesional 6 piezas",
-    "image": "https://picsum.photos/seed/juego-de-cuchillos-profesional-6-piezas/800/600"
+    "style": [
+      "pro"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-008",
@@ -69,7 +107,12 @@
     "price": 29.95,
     "rating": 4.2,
     "url": "https://www.amazon.es/s?k=Sartén antiadherente 28cm",
-    "image": "https://picsum.photos/seed/sartén-antiadherente-28cm/800/600"
+    "style": [
+      "minimalista"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-009",
@@ -78,7 +121,12 @@
     "price": 22.9,
     "rating": 4.1,
     "url": "https://www.amazon.es/s?k=Organizador de especias giratorio",
-    "image": "https://picsum.photos/seed/organizador-de-especias-giratorio/800/600"
+    "style": [
+      "compacto"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-010",
@@ -87,7 +135,12 @@
     "price": 21.9,
     "rating": 4.3,
     "url": "https://es.shein.com/search/Esterilla yoga antideslizante.html",
-    "image": "https://picsum.photos/seed/esterilla-yoga-antideslizante/800/600"
+    "style": [
+      "sport"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-011",
@@ -96,7 +149,12 @@
     "price": 17.5,
     "rating": 4.2,
     "url": "https://es.shein.com/search/Banda elástica de resistencia set 5.html",
-    "image": "https://picsum.photos/seed/banda-elástica-de-resistencia-set-5/800/600"
+    "style": [
+      "sport"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-012",
@@ -105,7 +163,13 @@
     "price": 19.95,
     "rating": 4.4,
     "url": "https://www.amazon.es/s?k=Botella térmica 1L acero",
-    "image": "https://picsum.photos/seed/botella-térmica-1l-acero/800/600"
+    "style": [
+      "sport",
+      "minimalista"
+    ],
+    "audience": [
+      "unisex"
+    ]
   },
   {
     "id": "sku-013",
@@ -114,7 +178,12 @@
     "price": 39.95,
     "rating": 4.2,
     "url": "https://www.amazon.es/s?k=Cama para perro desmontable",
-    "image": "https://picsum.photos/seed/cama-para-perro-desmontable/800/600"
+    "style": [
+      "confort"
+    ],
+    "audience": [
+      "mascotas"
+    ]
   },
   {
     "id": "sku-014",
@@ -123,7 +192,12 @@
     "price": 12.99,
     "rating": 4.1,
     "url": "https://es.shein.com/search/Arnés para gato ajustable.html",
-    "image": "https://picsum.photos/seed/arnés-para-gato-ajustable/800/600"
+    "style": [
+      "sport"
+    ],
+    "audience": [
+      "mascotas"
+    ]
   },
   {
     "id": "sku-015",
@@ -132,6 +206,11 @@
     "price": 16.5,
     "rating": 4.3,
     "url": "https://www.amazon.es/s?k=Juguete interactivo para perro",
-    "image": "https://picsum.photos/seed/juguete-interactivo-para-perro/800/600"
+    "style": [
+      "diversión"
+    ],
+    "audience": [
+      "mascotas"
+    ]
   }
 ]

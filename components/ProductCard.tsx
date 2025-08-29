@@ -9,15 +9,13 @@ export type Product = {
 }
 
 export default function ProductCard({ p }: { p: Product }) {
-  const original = (p.image || '').trim()
-  const [imgSrc, setImgSrc] = useState(
-    original.startsWith('http') ? original : (original || '/placeholder.png')
-  )
+  const guessed = p.image && p.image.trim().length ? p.image : `/api/photo?query=${encodeURIComponent(p.title)}`
+  const [imgSrc, setImgSrc] = useState(guessed)
 
   useEffect(() => {
-    const src = (p.image || '').trim()
-    setImgSrc(src.startsWith('http') ? src : (src || '/placeholder.png'))
-  }, [p.image])
+    const src = p.image && p.image.trim().length ? p.image : `/api/photo?query=${encodeURIComponent(p.title)}`
+    setImgSrc(src)
+  }, [p.image, p.title])
 
   const provider = (p.url || '').includes('shein') ? 'shein'
                   : (p.url || '').includes('amazon') ? 'amazon'
@@ -25,10 +23,9 @@ export default function ProductCard({ p }: { p: Product }) {
 
   const href = useMemo(() => {
     const base = `/api/out?p=${provider}&title=${encodeURIComponent(p.title)}`
-    const asinPart = p.asin ? `&asin=${encodeURIComponent(p.asin)}` : ''
     const urlPart = `&url=${encodeURIComponent(p.url || '')}`
-    return `${base}${asinPart}${urlPart}`
-  }, [p.title, p.asin, p.url, provider])
+    return `${base}${urlPart}`
+  }, [p.title, p.url, provider])
 
   return (
     <div className="rounded-2xl bg-white shadow overflow-hidden">
@@ -42,8 +39,8 @@ export default function ProductCard({ p }: { p: Product }) {
           referrerPolicy="no-referrer"
           onError={(e) => {
             const el = e.currentTarget as HTMLImageElement
-            if (el.src.startsWith('http') && !el.src.includes('/api/img?src=')) {
-              el.src = `/api/img?src=${encodeURIComponent(original)}`
+            if (!el.src.includes('/api/photo?query=')) {
+              el.src = `/api/photo?query=${encodeURIComponent(p.title)}`
             } else {
               el.src = '/placeholder.png'
             }

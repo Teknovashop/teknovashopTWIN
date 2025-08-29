@@ -6,7 +6,6 @@ async function fetchFollow(
   depth: number = 0
 ): Promise<Response> {
   const r = await fetch(url, { ...init, redirect: 'manual' });
-  // seguir redirecciones manualmente (algunos CDNs bloquean el auto-follow)
   if (r.status >= 300 && r.status < 400 && r.headers.get('location') && depth < 3) {
     const next = new URL(r.headers.get('location')!, url).toString();
     return fetchFollow(next, init, depth + 1);

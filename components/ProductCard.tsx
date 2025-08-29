@@ -1,28 +1,21 @@
+
 'use client'
 import { useMemo } from 'react'
 import Badge from './Badge'
 
 export type Product = {
-  id: string;
-  title: string;
-  brand?: string;
-  category: string;
-  price: number;
-  rating?: number;
-  image?: string;
-  url: string;
-  asin?: string;
-  tags?: string[];
-  description?: string;
+  id: string; title: string; category: string;
+  price: number; rating?: number; image?: string; url: string;
+  asin?: string; tags?: string[]; description?: string;
 }
 
 const isRemote = (u?: string) => !!u && /^https?:\/\//i.test(u);
 
 export default function ProductCard({ p }: { p: Product }) {
-  const href = `/api/out?p=${(p.url||'').includes('amazon.')?'amazon':'ext'}&id=${encodeURIComponent(p.id)}&url=${encodeURIComponent(p.url)}`
+  const href = `/api/out?p=${(p.url||'').includes('amazon.')?'amazon':'ext'}&id=${encodeURIComponent(p.id)}&url=${encodeURIComponent(p.url)}`;
   const imgSrc = useMemo(() => {
-    const src = p.image || '';
-    if (isRemote(src)) return `/api/img?src=${encodeURIComponent(src)}`; // proxy via edge
+    const src = (p.image || '').trim();
+    if (isRemote(src)) return `/api/img?src=${encodeURIComponent(src)}`;
     return src || '/placeholder.png';
   }, [p.image]);
 

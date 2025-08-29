@@ -1,6 +1,5 @@
-
 'use client'
-import { useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import Badge from './Badge'
 
 export type Product = {
@@ -9,15 +8,27 @@ export type Product = {
   asin?: string; tags?: string[]; description?: string;
 }
 
-const isRemote = (u?: string) => !!u && /^https?:\/\//i.test(u);
-
 export default function ProductCard({ p }: { p: Product }) {
-  const href = `/api/out?p=${(p.url||'').includes('amazon.')?'amazon':'ext'}&id=${encodeURIComponent(p.id)}&url=${encodeURIComponent(p.url)}`;
-  const imgSrc = useMemo(() => {
-    const src = (p.image || '').trim();
-    if (isRemote(src)) return `/api/img?src=${encodeURIComponent(src)}`;
-    return src || '/placeholder.png';
-  }, [p.image]);
+  const original = (p.image || '').trim()
+  const [imgSrc, setImgSrc] = useState(
+    original.startsWith('http') ? original : (original || '/placeholder.png')
+  )
+
+  useEffect(() => {
+    const src = (p.image || '').trim()
+    setImgSrc(src.startsWith('http') ? src : (src || '/placeholder.png'))
+  }, [p.image])
+
+  const provider = (p.url || '').includes('shein') ? 'shein'
+                  : (p.url || '').includes('amazon') ? 'amazon'
+                  : 'amazon'
+
+  const href = useMemo(() => {
+    const base = `/api/out?p=${provider}&title=${encodeURIComponent(p.title)}`
+    const asinPart = p.asin ? `&asin=${encodeURIComponent(p.asin)}` : ''
+    const urlPart = `&url=${encodeURIComponent(p.url || '')}`
+    return `${base}${asinPart}${urlPart}`
+  }, [p.title, p.asin, p.url, provider])
 
   return (
     <div className="rounded-2xl bg-white shadow overflow-hidden">
@@ -28,8 +39,15 @@ export default function ProductCard({ p }: { p: Product }) {
           loading="lazy"
           decoding="async"
           className="h-full w-full object-cover"
-          onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/placeholder.png'; }}
           referrerPolicy="no-referrer"
+          onError={(e) => {
+            const el = e.currentTarget as HTMLImageElement
+            if (el.src.startsWith('http') && !el.src.includes('/api/img?src=')) {
+              el.src = `/api/img?src=${encodeURIComponent(original)}`
+            } else {
+              el.src = '/placeholder.png'
+            }
+          }}
         />
       </div>
       <div className="p-4 space-y-2">

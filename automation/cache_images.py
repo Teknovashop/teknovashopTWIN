@@ -1,4 +1,3 @@
-
 import os, json, time, hashlib, requests
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
@@ -30,7 +29,8 @@ def main():
     changed = False
     for p in products:
         img = (p.get("image") or "").strip()
-        if not img.startswith("http"): continue
+        if not img.startswith("http"):
+            continue
         name = fname(img)
         dest = OUT_DIR / name
         if not dest.exists():

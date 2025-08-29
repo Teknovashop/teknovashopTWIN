@@ -1,24 +1,25 @@
-import { NextRequest, NextResponse } from 'next/server'
-export async function GET(req: NextRequest){
+import { NextResponse } from 'next/server'
+import { buildAmazonLink, buildSheinLink } from '../../../lib/affiliates'
+
+export async function GET(req: Request) {
   const { searchParams } = new URL(req.url)
-  const id = searchParams.get('id') || ''
   const provider = (searchParams.get('p') || '').toLowerCase()
-  const asin = (searchParams.get('asin') || '').toUpperCase()
   const title = searchParams.get('title') || ''
+  const asin = searchParams.get('asin') || ''
   const raw = searchParams.get('url') || ''
-  const debug = searchParams.get('debug') === '1'
-  const tag = process.env.AFFILIATE_TAG || 'teknovashop25-21'
-  let target = raw || 'https://www.amazon.es/'
+
+  const tag = process.env.NEXT_PUBLIC_AMAZON_TAG || 'teknovashop25-21'
+  const pid = process.env.NEXT_PUBLIC_SHEIN_PID || '5798341419'
+
+  let target = raw
+
   if (provider === 'amazon') {
-    const TAG = encodeURIComponent(tag)
-    const AFF = `tag=${TAG}&ref=as_li_ss_tl&linkCode=ll2`
-    const looksLikeAsin = /^[A-Z0-9]{10}$/.test(asin)
-    const notDummy = !/(EXAMPLE|PLACEHOLDER|DUMMY|TEST)/i.test(asin)
-    if (looksLikeAsin && notDummy) target = `https://www.amazon.es/dp/${asin}?${AFF}`
-    else if (title) { const q = encodeURIComponent(title); target = `https://www.amazon.es/s?k=${q}&${AFF}` }
-    else target = `https://www.amazon.es/?${AFF}`
+    target = buildAmazonLink({ title, asin, tag })
+  } else if (provider === 'shein') {
+    target = buildSheinLink({ title, pid })
+  } else if (!raw) {
+    target = buildAmazonLink({ title, asin, tag })
   }
-  if (id) try { const { kv } = await import('@vercel/kv'); await kv.incr(`clicks:${id}`); await kv.expire(`clicks:${id}`, 60*60*24*30) } catch {}
-  if (debug) return NextResponse.json({ target, tag, provider, asin, title })
-  return NextResponse.redirect(target, 302)
+
+  return NextResponse.redirect(target, { status: 302 })
 }

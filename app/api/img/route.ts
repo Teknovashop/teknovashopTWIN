@@ -1,32 +1,37 @@
-
 export const runtime = 'edge';
 
-async function fetchFollow(url, init = {}, depth = 0) {
-  const r = await fetch(url, { ...init, redirect: 'manual' });
-  if (r.status >= 300 && r.status < 400 && r.headers.get('location') && depth < 3) {
-    const next = new URL(r.headers.get('location'), url).toString();
-    return fetchFollow(next, init, depth + 1);
-  }
-  return r;
-}
-
-export async function GET(req) {
+export async function GET(req: Request): Promise<Response> {
   const { searchParams } = new URL(req.url);
   const src = searchParams.get('src');
   if (!src) return new Response('Missing src', { status: 400 });
-  try {
-    const r = await fetchFollow(src, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (TeknovashopImgProxy/1.0)' },
-      cache: 'no-store'
-    });
+
+  // Manual redirect follow (max 3 hops)
+  let url: string = src;
+  const init: RequestInit & { redirect: RequestRedirect } = {
+    headers: { 'User-Agent': 'Mozilla/5.0 (TeknovashopImgProxy/1.0)' },
+    cache: 'no-store',
+    redirect: 'manual',
+  };
+
+  for (let i = 0; i < 3; i++) {
+    const r = await fetch(url, init);
+    if (r.status >= 300 && r.status < 400) {
+      const loc = r.headers.get('location');
+      if (loc) {
+        url = new URL(loc, url).toString();
+        continue;
+      }
+    }
     if (!r.ok) return new Response('Upstream error', { status: r.status });
-    const ct = r.headers.get('content-type') || 'image/jpeg';
+    const ct = r.headers.get('content-type') ?? 'image/jpeg';
     const buf = await r.arrayBuffer();
     return new Response(buf, {
       status: 200,
-      headers: { 'content-type': ct, 'cache-control': 'public, max-age=31536000, immutable' }
+      headers: {
+        'content-type': ct,
+        'cache-control': 'public, max-age=31536000, immutable',
+      },
     });
-  } catch {
-    return new Response('Fetch failed', { status: 502 });
   }
+  return new Response('Too many redirects', { status: 508 });
 }

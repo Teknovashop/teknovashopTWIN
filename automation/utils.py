@@ -10,10 +10,8 @@ def slugify(text: str) -> str:
 
 def read_affiliates():
     aff = {
-        "AE_AFF_PLATFORM": os.environ.get("AE_AFF_PLATFORM", ""),
-        "AE_AFF_FCID": os.environ.get("AE_AFF_FCID", ""),
-        "AE_AFF_FSK": os.environ.get("AE_AFF_FSK", ""),
-        "SHEIN_PID": os.environ.get("SHEIN_PID", "")
+        "AFFILIATE_TAG": os.environ.get("AFFILIATE_TAG", "teknovashop25-21"),
+        "SHEIN_PID": os.environ.get("SHEIN_PID", "5798341419")
     }
     cfg_path = Path("data/affiliates.json")
     if cfg_path.exists():
@@ -24,24 +22,24 @@ def read_affiliates():
             pass
     return aff
 
-def affiliate_links(keyword: str, aff: dict):
+def affiliate_links(keyword: str, aff: dict, geo="ES"):
     kwq = keyword.replace(' ', '+')
-    ali = f"https://s.click.aliexpress.com/e/_search?keywords={kwq}"
-    if aff.get("AE_AFF_PLATFORM"):
-        ali += f"&aff_platform={aff['AE_AFF_PLATFORM']}"
-    if aff.get("AE_AFF_FCID"):
-        ali += f"&aff_fcid={aff['AE_AFF_FCID']}"
-    if aff.get("AE_AFF_FSK"):
-        ali += f"&aff_fsk={aff['AE_AFF_FSK']}"
-    shein = f"https://shein.sng.link/{aff.get('SHEIN_PID','')}/search?keyword={kwq}".rstrip('/')
-    return ali, shein
+    amazon_domain = "amazon.es" if geo.upper() == "ES" else "amazon.com"
+    tag = aff.get("AFFILIATE_TAG", "teknovashop25-21")
+    amazon = f"https://www.{amazon_domain}/s?k={kwq}"
+    if tag:
+        sep = "&" if "?" in amazon else "?"
+        amazon = f"{amazon}{sep}tag={tag}"
+    shein_pid = aff.get("SHEIN_PID", "5798341419")
+    shein = f"https://shein.sng.link/{shein_pid}/search?keyword={kwq}".rstrip('/')
+    return amazon, shein
 
 def write_markdown_post(title: str, soi: float, body_md: str, keyword: str):
     slug = f"{datetime.utcnow().date().isoformat()}-{slugify(title)}"
     front = f"""---
 title: "{title}"
 date: "{datetime.utcnow().isoformat()}"
-excerpt: "Ranking y guía generados automáticamente por IA para '{keyword}'."
+excerpt: "Guía y ranking generados automáticamente por IA para '{keyword}'."
 tags: ["{keyword}", "ranking", "guia"]
 coverImage: "/og/teknovashop-og.png"
 soi: {soi:.4f}

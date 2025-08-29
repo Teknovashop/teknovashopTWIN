@@ -1,1559 +1,831 @@
 [
   {
-    "id": "fit-0001",
-    "title": "Mancuernas",
-    "category": "fitness",
-    "price": 326.45,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=mancuernas&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=23490",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0002",
-    "title": "Mancuernas Pro",
-    "category": "fitness",
-    "price": 128.93,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=mancuernas&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=23490",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0003",
-    "title": "Pesas",
-    "category": "fitness",
-    "price": 370.63,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=pesas&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=32713",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0004",
-    "title": "Pesas Pro",
-    "category": "fitness",
-    "price": 313.88,
-    "rating": 3.8,
-    "url": "https://www.amazon.es/s?k=pesas&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=32713",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0005",
-    "title": "Banda Elastica",
-    "category": "fitness",
-    "price": 115.31,
-    "rating": 4.5,
-    "url": "https://www.amazon.es/s?k=banda+elastica&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=14285",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0006",
-    "title": "Banda Elastica Pro",
-    "category": "fitness",
-    "price": 289.95,
-    "rating": 4.5,
-    "url": "https://www.amazon.es/s?k=banda+elastica&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=14285",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0007",
-    "title": "Kettlebell",
-    "category": "fitness",
-    "price": 290.78,
-    "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=kettlebell&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=95807",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0008",
-    "title": "Kettlebell Pro",
-    "category": "fitness",
-    "price": 169.38,
-    "rating": 3.8,
-    "url": "https://www.amazon.es/s?k=kettlebell&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=95807",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0009",
-    "title": "Colchoneta",
-    "category": "fitness",
-    "price": 103.93,
-    "rating": 4.2,
-    "url": "https://www.amazon.es/s?k=colchoneta&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=27967",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0010",
-    "title": "Colchoneta Pro",
-    "category": "fitness",
-    "price": 82.61,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=colchoneta&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=27967",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0011",
-    "title": "Comba",
-    "category": "fitness",
-    "price": 50.71,
-    "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=comba&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=55692",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0012",
-    "title": "Comba Pro",
-    "category": "fitness",
-    "price": 195.15,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=comba&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=55692",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0013",
-    "title": "Barra Dominadas",
-    "category": "fitness",
-    "price": 386.38,
-    "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=barra+dominadas&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=65765",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "fit-0014",
-    "title": "Barra Dominadas Pro",
-    "category": "fitness",
-    "price": 191.15,
-    "rating": 4.1,
-    "url": "https://www.amazon.es/s?k=barra+dominadas&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=65765",
-    "tags": [
-      "fitness",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0015",
-    "title": "Robot Aspirador",
-    "category": "hogar",
-    "price": 524.09,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=robot+aspirador&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=14429",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0016",
-    "title": "Robot Aspirador Pro",
-    "category": "hogar",
-    "price": 164.92,
-    "rating": 4.9,
-    "url": "https://www.amazon.es/s?k=robot+aspirador&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=14429",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0017",
-    "title": "Purificador Aire",
-    "category": "hogar",
-    "price": 180.21,
-    "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=purificador+aire&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=76690",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0018",
-    "title": "Purificador Aire Pro",
-    "category": "hogar",
-    "price": 278.81,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=purificador+aire&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=76690",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0019",
-    "title": "Humidificador",
-    "category": "hogar",
-    "price": 191.37,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=humidificador&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=34694",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0020",
-    "title": "Humidificador Pro",
-    "category": "hogar",
-    "price": 499.54,
-    "rating": 4.2,
-    "url": "https://www.amazon.es/s?k=humidificador&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=34694",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0021",
-    "title": "Freidora Sin Aceite",
-    "category": "hogar",
-    "price": 615.78,
-    "rating": 4.2,
-    "url": "https://www.amazon.es/s?k=freidora+sin+aceite&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=24342",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0022",
-    "title": "Freidora Sin Aceite Pro",
-    "category": "hogar",
-    "price": 172.87,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=freidora+sin+aceite&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=24342",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0023",
-    "title": "Cafetera",
-    "category": "hogar",
-    "price": 339.65,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=cafetera&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=12694",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0024",
-    "title": "Cafetera Pro",
-    "category": "hogar",
-    "price": 454.51,
-    "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=cafetera&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=12694",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0025",
-    "title": "Lampara Led",
-    "category": "hogar",
-    "price": 563.71,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=lampara+led&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=39471",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0026",
-    "title": "Lampara Led Pro",
-    "category": "hogar",
-    "price": 684.56,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=lampara+led&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=39471",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0027",
-    "title": "Organizadores",
-    "category": "hogar",
-    "price": 527.98,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=organizadores&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=96409",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "hog-0028",
-    "title": "Organizadores Pro",
-    "category": "hogar",
-    "price": 344.74,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=organizadores&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=96409",
-    "tags": [
-      "hogar",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0029",
-    "title": "Smartwatch",
-    "category": "tecnologia",
-    "price": 154.1,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=smartwatch&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=46603",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0030",
-    "title": "Smartwatch Pro",
-    "category": "tecnologia",
-    "price": 258.39,
-    "rating": 4.5,
-    "url": "https://www.amazon.es/s?k=smartwatch&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=46603",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0031",
-    "title": "Auriculares Bluetooth",
-    "category": "tecnologia",
-    "price": 514.06,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=auriculares+bluetooth&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=76523",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0032",
-    "title": "Auriculares Bluetooth Pro",
-    "category": "tecnologia",
-    "price": 85.27,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=auriculares+bluetooth&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=76523",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0033",
-    "title": "Altavoz Bluetooth",
-    "category": "tecnologia",
-    "price": 309.46,
-    "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=altavoz+bluetooth&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=87922",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0034",
-    "title": "Altavoz Bluetooth Pro",
-    "category": "tecnologia",
-    "price": 266.15,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=altavoz+bluetooth&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=87922",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0035",
-    "title": "Monitor 27",
-    "category": "tecnologia",
-    "price": 535.48,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=monitor+27&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=3888",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0036",
-    "title": "Monitor 27 Pro",
-    "category": "tecnologia",
-    "price": 354.67,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=monitor+27&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=3888",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0037",
-    "title": "Teclado Mecanico",
-    "category": "tecnologia",
-    "price": 188.96,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=teclado+mecanico&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=83255",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0038",
-    "title": "Teclado Mecanico Pro",
-    "category": "tecnologia",
-    "price": 289.96,
-    "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=teclado+mecanico&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=83255",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0039",
-    "title": "Raton Gaming",
-    "category": "tecnologia",
-    "price": 272.15,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=raton+gaming&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=16740",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0040",
-    "title": "Raton Gaming Pro",
-    "category": "tecnologia",
-    "price": 276.32,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=raton+gaming&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=16740",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0041",
-    "title": "Webcam Full Hd",
-    "category": "tecnologia",
-    "price": 107.28,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=webcam+full+hd&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=17240",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "tec-0042",
-    "title": "Webcam Full Hd Pro",
-    "category": "tecnologia",
-    "price": 336.14,
-    "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=webcam+full+hd&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=17240",
-    "tags": [
-      "tecnologia",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0043",
-    "title": "Secador Pelo",
-    "category": "belleza",
-    "price": 282.61,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=secador+pelo&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=68999",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0044",
-    "title": "Secador Pelo Pro",
-    "category": "belleza",
-    "price": 321.93,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=secador+pelo&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=68999",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0045",
-    "title": "Plancha Pelo",
-    "category": "belleza",
-    "price": 301.21,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=plancha+pelo&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=99272",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0046",
-    "title": "Plancha Pelo Pro",
-    "category": "belleza",
-    "price": 372.47,
-    "rating": 4.9,
-    "url": "https://www.amazon.es/s?k=plancha+pelo&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=99272",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0047",
-    "title": "Cepillo Facial",
-    "category": "belleza",
-    "price": 341.94,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=cepillo+facial&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=20239",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0048",
-    "title": "Cepillo Facial Pro",
-    "category": "belleza",
-    "price": 230.84,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=cepillo+facial&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=20239",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0049",
-    "title": "Depiladora",
-    "category": "belleza",
-    "price": 168.84,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=depiladora&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=44849",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0050",
-    "title": "Depiladora Pro",
-    "category": "belleza",
-    "price": 304.81,
-    "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=depiladora&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=44849",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0051",
-    "title": "Masajeador",
-    "category": "belleza",
-    "price": 320.35,
-    "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=masajeador&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=10764",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0052",
-    "title": "Masajeador Pro",
-    "category": "belleza",
-    "price": 45.39,
-    "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=masajeador&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=10764",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0053",
-    "title": "Rizador",
-    "category": "belleza",
-    "price": 127.14,
-    "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=rizador&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=31696",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "bel-0054",
-    "title": "Rizador Pro",
-    "category": "belleza",
-    "price": 276.29,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=rizador&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=31696",
-    "tags": [
-      "belleza",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0055",
-    "title": "Batidora De Vaso",
-    "category": "cocina",
-    "price": 310.05,
-    "rating": 4.1,
-    "url": "https://www.amazon.es/s?k=batidora+de+vaso&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=57355",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0056",
-    "title": "Batidora De Vaso Pro",
-    "category": "cocina",
-    "price": 269.3,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=batidora+de+vaso&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=57355",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0057",
-    "title": "Robot Cocina",
-    "category": "cocina",
-    "price": 70.36,
-    "rating": 4.2,
-    "url": "https://www.amazon.es/s?k=robot+cocina&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=33915",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0058",
-    "title": "Robot Cocina Pro",
-    "category": "cocina",
-    "price": 223.68,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=robot+cocina&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=33915",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0059",
-    "title": "Olla Express",
-    "category": "cocina",
-    "price": 365.14,
-    "rating": 4.5,
-    "url": "https://www.amazon.es/s?k=olla+express&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=1050",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0060",
-    "title": "Olla Express Pro",
-    "category": "cocina",
-    "price": 42.1,
-    "rating": 4.2,
-    "url": "https://www.amazon.es/s?k=olla+express&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=1050",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0061",
-    "title": "Vasos Termicos",
-    "category": "cocina",
-    "price": 59.95,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=vasos+termicos&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=60560",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0062",
-    "title": "Vasos Termicos Pro",
-    "category": "cocina",
-    "price": 229.61,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=vasos+termicos&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=60560",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0063",
-    "title": "Sarten Antiadherente",
-    "category": "cocina",
-    "price": 240.99,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=sarten+antiadherente&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=56454",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0064",
-    "title": "Sarten Antiadherente Pro",
-    "category": "cocina",
-    "price": 253.32,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=sarten+antiadherente&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=56454",
-    "tags": [
-      "cocina",
-      "auto"
-    ]
-  },
-  {
-    "id": "coc-0065",
+    "id": "coc-0001",
     "title": "Cuchillos Cocina",
     "category": "cocina",
-    "price": 47.02,
-    "rating": 4.9,
+    "price": 105.96,
+    "rating": 4.2,
     "url": "https://www.amazon.es/s?k=cuchillos+cocina&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=76882",
+    "image": "https://source.unsplash.com/800x600/?Cuchillos+Cocina&sig=1",
     "tags": [
       "cocina",
       "auto"
     ]
   },
   {
-    "id": "coc-0066",
+    "id": "coc-0002",
     "title": "Cuchillos Cocina Pro",
     "category": "cocina",
-    "price": 40.76,
-    "rating": 4.8,
+    "price": 18.45,
+    "rating": 4.4,
     "url": "https://www.amazon.es/s?k=cuchillos+cocina&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=76882",
+    "image": "https://source.unsplash.com/800x600/?Cuchillos+Cocina+Pro&sig=2",
     "tags": [
       "cocina",
       "auto"
     ]
   },
   {
-    "id": "gam-0067",
-    "title": "Silla Gaming",
-    "category": "gaming",
-    "price": 217.26,
+    "id": "coc-0003",
+    "title": "Sarten Antiadherente",
+    "category": "cocina",
+    "price": 109.66,
+    "rating": 4.8,
+    "url": "https://www.amazon.es/s?k=sarten+antiadherente&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Sarten+Antiadherente&sig=3",
+    "tags": [
+      "cocina",
+      "auto"
+    ]
+  },
+  {
+    "id": "coc-0004",
+    "title": "Sarten Antiadherente Pro",
+    "category": "cocina",
+    "price": 59.75,
     "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=silla+gaming&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=5410",
+    "url": "https://www.amazon.es/s?k=sarten+antiadherente&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Sarten+Antiadherente+Pro&sig=4",
     "tags": [
-      "gaming",
+      "cocina",
       "auto"
     ]
   },
   {
-    "id": "gam-0068",
-    "title": "Silla Gaming Pro",
-    "category": "gaming",
-    "price": 236.59,
-    "rating": 3.8,
-    "url": "https://www.amazon.es/s?k=silla+gaming&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=5410",
+    "id": "coc-0005",
+    "title": "Ollas",
+    "category": "cocina",
+    "price": 26.81,
+    "rating": 4.4,
+    "url": "https://www.amazon.es/s?k=ollas&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Ollas&sig=5",
     "tags": [
-      "gaming",
+      "cocina",
       "auto"
     ]
   },
   {
-    "id": "gam-0069",
-    "title": "Gamepad",
-    "category": "gaming",
-    "price": 366.06,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=gamepad&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=5250",
-    "tags": [
-      "gaming",
-      "auto"
-    ]
-  },
-  {
-    "id": "gam-0070",
-    "title": "Gamepad Pro",
-    "category": "gaming",
-    "price": 384.86,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=gamepad&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=5250",
-    "tags": [
-      "gaming",
-      "auto"
-    ]
-  },
-  {
-    "id": "gam-0071",
-    "title": "Alfombrilla",
-    "category": "gaming",
-    "price": 534.19,
-    "rating": 4.1,
-    "url": "https://www.amazon.es/s?k=alfombrilla&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=33255",
-    "tags": [
-      "gaming",
-      "auto"
-    ]
-  },
-  {
-    "id": "gam-0072",
-    "title": "Alfombrilla Pro",
-    "category": "gaming",
-    "price": 349.43,
+    "id": "coc-0006",
+    "title": "Ollas Pro",
+    "category": "cocina",
+    "price": 36.54,
     "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=alfombrilla&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=33255",
+    "url": "https://www.amazon.es/s?k=ollas&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Ollas+Pro&sig=6",
     "tags": [
-      "gaming",
+      "cocina",
       "auto"
     ]
   },
   {
-    "id": "gam-0073",
-    "title": "Microfono Usb",
-    "category": "gaming",
-    "price": 186.01,
+    "id": "coc-0007",
+    "title": "Espumadera",
+    "category": "cocina",
+    "price": 74.61,
+    "rating": 4.4,
+    "url": "https://www.amazon.es/s?k=espumadera&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Espumadera&sig=7",
+    "tags": [
+      "cocina",
+      "auto"
+    ]
+  },
+  {
+    "id": "coc-0008",
+    "title": "Espumadera Pro",
+    "category": "cocina",
+    "price": 31.54,
+    "rating": 4.2,
+    "url": "https://www.amazon.es/s?k=espumadera&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Espumadera+Pro&sig=8",
+    "tags": [
+      "cocina",
+      "auto"
+    ]
+  },
+  {
+    "id": "coc-0009",
+    "title": "Mandolina",
+    "category": "cocina",
+    "price": 61.93,
+    "rating": 4.7,
+    "url": "https://www.amazon.es/s?k=mandolina&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Mandolina&sig=9",
+    "tags": [
+      "cocina",
+      "auto"
+    ]
+  },
+  {
+    "id": "coc-0010",
+    "title": "Mandolina Pro",
+    "category": "cocina",
+    "price": 87.38,
+    "rating": 4.4,
+    "url": "https://www.amazon.es/s?k=mandolina&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Mandolina+Pro&sig=10",
+    "tags": [
+      "cocina",
+      "auto"
+    ]
+  },
+  {
+    "id": "coc-0011",
+    "title": "Tupper Hermetico",
+    "category": "cocina",
+    "price": 157.17,
+    "rating": 4.7,
+    "url": "https://www.amazon.es/s?k=tupper+hermetico&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Tupper+Hermetico&sig=11",
+    "tags": [
+      "cocina",
+      "auto"
+    ]
+  },
+  {
+    "id": "coc-0012",
+    "title": "Tupper Hermetico Pro",
+    "category": "cocina",
+    "price": 53.06,
+    "rating": 4.4,
+    "url": "https://www.amazon.es/s?k=tupper+hermetico&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Tupper+Hermetico+Pro&sig=12",
+    "tags": [
+      "cocina",
+      "auto"
+    ]
+  },
+  {
+    "id": "tec-0013",
+    "title": "Auriculares Bluetooth",
+    "category": "tecnologia",
+    "price": 60.45,
+    "rating": 4.4,
+    "url": "https://www.amazon.es/s?k=auriculares+bluetooth&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Auriculares+Bluetooth&sig=13",
+    "tags": [
+      "tecnologia",
+      "auto"
+    ]
+  },
+  {
+    "id": "tec-0014",
+    "title": "Auriculares Bluetooth Pro",
+    "category": "tecnologia",
+    "price": 32.29,
+    "rating": 4.5,
+    "url": "https://www.amazon.es/s?k=auriculares+bluetooth&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Auriculares+Bluetooth+Pro&sig=14",
+    "tags": [
+      "tecnologia",
+      "auto"
+    ]
+  },
+  {
+    "id": "tec-0015",
+    "title": "Altavoz Bluetooth",
+    "category": "tecnologia",
+    "price": 145.61,
     "rating": 4.3,
-    "url": "https://www.amazon.es/s?k=microfono+usb&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=96615",
+    "url": "https://www.amazon.es/s?k=altavoz+bluetooth&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Altavoz+Bluetooth&sig=15",
     "tags": [
-      "gaming",
+      "tecnologia",
       "auto"
     ]
   },
   {
-    "id": "gam-0074",
-    "title": "Microfono Usb Pro",
-    "category": "gaming",
-    "price": 348.28,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=microfono+usb&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=96615",
-    "tags": [
-      "gaming",
-      "auto"
-    ]
-  },
-  {
-    "id": "gam-0075",
-    "title": "Auriculares Gaming",
-    "category": "gaming",
-    "price": 148.8,
-    "rating": 4.5,
-    "url": "https://www.amazon.es/s?k=auriculares+gaming&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=57852",
-    "tags": [
-      "gaming",
-      "auto"
-    ]
-  },
-  {
-    "id": "gam-0076",
-    "title": "Auriculares Gaming Pro",
-    "category": "gaming",
-    "price": 325.8,
+    "id": "tec-0016",
+    "title": "Altavoz Bluetooth Pro",
+    "category": "tecnologia",
+    "price": 94.31,
     "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=auriculares+gaming&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=57852",
+    "url": "https://www.amazon.es/s?k=altavoz+bluetooth&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Altavoz+Bluetooth+Pro&sig=16",
     "tags": [
-      "gaming",
+      "tecnologia",
       "auto"
     ]
   },
   {
-    "id": "gam-0077",
-    "title": "Luces Rgb",
-    "category": "gaming",
-    "price": 440.78,
-    "rating": 4.5,
-    "url": "https://www.amazon.es/s?k=luces+rgb&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=15646",
-    "tags": [
-      "gaming",
-      "auto"
-    ]
-  },
-  {
-    "id": "gam-0078",
-    "title": "Luces Rgb Pro",
-    "category": "gaming",
-    "price": 529.61,
-    "rating": 4.1,
-    "url": "https://www.amazon.es/s?k=luces+rgb&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=15646",
-    "tags": [
-      "gaming",
-      "auto"
-    ]
-  },
-  {
-    "id": "mov-0079",
-    "title": "Patinete Electrico",
-    "category": "movilidad",
-    "price": 458.79,
-    "rating": 4.1,
-    "url": "https://www.amazon.es/s?k=patinete+electrico&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=40867",
-    "tags": [
-      "movilidad",
-      "auto"
-    ]
-  },
-  {
-    "id": "mov-0080",
-    "title": "Patinete Electrico Pro",
-    "category": "movilidad",
-    "price": 537.24,
-    "rating": 4.5,
-    "url": "https://www.amazon.es/s?k=patinete+electrico&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=40867",
-    "tags": [
-      "movilidad",
-      "auto"
-    ]
-  },
-  {
-    "id": "mov-0081",
-    "title": "Bicicleta Estatica",
-    "category": "movilidad",
-    "price": 577.16,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=bicicleta+estatica&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=63370",
-    "tags": [
-      "movilidad",
-      "auto"
-    ]
-  },
-  {
-    "id": "mov-0082",
-    "title": "Bicicleta Estatica Pro",
-    "category": "movilidad",
-    "price": 407.85,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=bicicleta+estatica&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=63370",
-    "tags": [
-      "movilidad",
-      "auto"
-    ]
-  },
-  {
-    "id": "mov-0083",
-    "title": "Casco Bici",
-    "category": "movilidad",
-    "price": 104.51,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=casco+bici&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=41130",
-    "tags": [
-      "movilidad",
-      "auto"
-    ]
-  },
-  {
-    "id": "mov-0084",
-    "title": "Casco Bici Pro",
-    "category": "movilidad",
-    "price": 275.23,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=casco+bici&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=41130",
-    "tags": [
-      "movilidad",
-      "auto"
-    ]
-  },
-  {
-    "id": "mov-0085",
-    "title": "Candado Bici",
-    "category": "movilidad",
-    "price": 335.31,
+    "id": "tec-0017",
+    "title": "Teclado Mecanico",
+    "category": "tecnologia",
+    "price": 103.0,
     "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=candado+bici&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=73615",
+    "url": "https://www.amazon.es/s?k=teclado+mecanico&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Teclado+Mecanico&sig=17",
     "tags": [
-      "movilidad",
+      "tecnologia",
       "auto"
     ]
   },
   {
-    "id": "mov-0086",
-    "title": "Candado Bici Pro",
-    "category": "movilidad",
-    "price": 533.47,
+    "id": "tec-0018",
+    "title": "Teclado Mecanico Pro",
+    "category": "tecnologia",
+    "price": 198.6,
+    "rating": 3.9,
+    "url": "https://www.amazon.es/s?k=teclado+mecanico&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Teclado+Mecanico+Pro&sig=18",
+    "tags": [
+      "tecnologia",
+      "auto"
+    ]
+  },
+  {
+    "id": "tec-0019",
+    "title": "Monitor 27",
+    "category": "tecnologia",
+    "price": 91.5,
+    "rating": 4.8,
+    "url": "https://www.amazon.es/s?k=monitor+27&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Monitor+27&sig=19",
+    "tags": [
+      "tecnologia",
+      "auto"
+    ]
+  },
+  {
+    "id": "tec-0020",
+    "title": "Monitor 27 Pro",
+    "category": "tecnologia",
+    "price": 124.76,
     "rating": 4.9,
-    "url": "https://www.amazon.es/s?k=candado+bici&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=73615",
+    "url": "https://www.amazon.es/s?k=monitor+27&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Monitor+27+Pro&sig=20",
     "tags": [
-      "movilidad",
+      "tecnologia",
       "auto"
     ]
   },
   {
-    "id": "mov-0087",
-    "title": "Soporte Movil Coche",
-    "category": "movilidad",
-    "price": 599.31,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=soporte+movil+coche&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=17828",
-    "tags": [
-      "movilidad",
-      "auto"
-    ]
-  },
-  {
-    "id": "mov-0088",
-    "title": "Soporte Movil Coche Pro",
-    "category": "movilidad",
-    "price": 238.56,
-    "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=soporte+movil+coche&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=17828",
-    "tags": [
-      "movilidad",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0089",
-    "title": "Tripode",
-    "category": "fotografia",
-    "price": 137.7,
+    "id": "tec-0021",
+    "title": "Webcam Full Hd",
+    "category": "tecnologia",
+    "price": 45.24,
     "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=tripode&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=60100",
+    "url": "https://www.amazon.es/s?k=webcam+full+hd&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Webcam+Full+Hd&sig=21",
     "tags": [
-      "fotografia",
+      "tecnologia",
       "auto"
     ]
   },
   {
-    "id": "fot-0090",
-    "title": "Tripode Pro",
-    "category": "fotografia",
-    "price": 274.7,
-    "rating": 4.0,
-    "url": "https://www.amazon.es/s?k=tripode&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=60100",
+    "id": "tec-0022",
+    "title": "Webcam Full Hd Pro",
+    "category": "tecnologia",
+    "price": 95.04,
+    "rating": 4.3,
+    "url": "https://www.amazon.es/s?k=webcam+full+hd&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Webcam+Full+Hd+Pro&sig=22",
     "tags": [
-      "fotografia",
+      "tecnologia",
       "auto"
     ]
   },
   {
-    "id": "fot-0091",
-    "title": "Ring Light",
-    "category": "fotografia",
-    "price": 474.22,
-    "rating": 4.1,
-    "url": "https://www.amazon.es/s?k=ring+light&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=15005",
-    "tags": [
-      "fotografia",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0092",
-    "title": "Ring Light Pro",
-    "category": "fotografia",
-    "price": 93.37,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=ring+light&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=15005",
-    "tags": [
-      "fotografia",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0093",
-    "title": "Foco Led",
-    "category": "fotografia",
-    "price": 31.34,
+    "id": "tec-0023",
+    "title": "Powerbank 20000",
+    "category": "tecnologia",
+    "price": 34.24,
     "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=foco+led&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=17197",
+    "url": "https://www.amazon.es/s?k=powerbank+20000&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Powerbank+20000&sig=23",
     "tags": [
-      "fotografia",
+      "tecnologia",
       "auto"
     ]
   },
   {
-    "id": "fot-0094",
-    "title": "Foco Led Pro",
-    "category": "fotografia",
-    "price": 240.65,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=foco+led&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=17197",
-    "tags": [
-      "fotografia",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0095",
-    "title": "Mochila Camara",
-    "category": "fotografia",
-    "price": 500.39,
-    "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=mochila+camara&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=63143",
-    "tags": [
-      "fotografia",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0096",
-    "title": "Mochila Camara Pro",
-    "category": "fotografia",
-    "price": 445.82,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=mochila+camara&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=63143",
-    "tags": [
-      "fotografia",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0097",
-    "title": "Micro Sd 128Gb",
-    "category": "fotografia",
-    "price": 580.92,
-    "rating": 3.9,
-    "url": "https://www.amazon.es/s?k=micro+sd+128gb&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=62514",
-    "tags": [
-      "fotografia",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0098",
-    "title": "Micro Sd 128Gb Pro",
-    "category": "fotografia",
-    "price": 373.96,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=micro+sd+128gb&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=62514",
-    "tags": [
-      "fotografia",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0099",
-    "title": "Gopro Accesorios",
-    "category": "fotografia",
-    "price": 206.4,
-    "rating": 4.1,
-    "url": "https://www.amazon.es/s?k=gopro+accesorios&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=29248",
-    "tags": [
-      "fotografia",
-      "auto"
-    ]
-  },
-  {
-    "id": "fot-0100",
-    "title": "Gopro Accesorios Pro",
-    "category": "fotografia",
-    "price": 259.2,
+    "id": "tec-0024",
+    "title": "Powerbank 20000 Pro",
+    "category": "tecnologia",
+    "price": 158.46,
     "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=gopro+accesorios&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=29248",
+    "url": "https://www.amazon.es/s?k=powerbank+20000&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Powerbank+20000+Pro&sig=24",
     "tags": [
-      "fotografia",
+      "tecnologia",
       "auto"
     ]
   },
   {
-    "id": "mas-0101",
-    "title": "Rascador Gato",
-    "category": "mascotas",
-    "price": 241.95,
-    "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=rascador+gato&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=11374",
-    "tags": [
-      "mascotas",
-      "auto"
-    ]
-  },
-  {
-    "id": "mas-0102",
-    "title": "Rascador Gato Pro",
-    "category": "mascotas",
-    "price": 150.58,
-    "rating": 4.9,
-    "url": "https://www.amazon.es/s?k=rascador+gato&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=11374",
-    "tags": [
-      "mascotas",
-      "auto"
-    ]
-  },
-  {
-    "id": "mas-0103",
+    "id": "mas-0025",
     "title": "Cama Perro",
     "category": "mascotas",
-    "price": 120.26,
-    "rating": 3.8,
+    "price": 91.8,
+    "rating": 4.2,
     "url": "https://www.amazon.es/s?k=cama+perro&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=36810",
+    "image": "https://source.unsplash.com/800x600/?Cama+Perro&sig=25",
     "tags": [
       "mascotas",
       "auto"
     ]
   },
   {
-    "id": "mas-0104",
+    "id": "mas-0026",
     "title": "Cama Perro Pro",
     "category": "mascotas",
-    "price": 408.98,
-    "rating": 4.7,
+    "price": 143.6,
+    "rating": 4.3,
     "url": "https://www.amazon.es/s?k=cama+perro&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=36810",
+    "image": "https://source.unsplash.com/800x600/?Cama+Perro+Pro&sig=26",
     "tags": [
       "mascotas",
       "auto"
     ]
   },
   {
-    "id": "mas-0105",
-    "title": "Bebedero Automatico",
+    "id": "mas-0027",
+    "title": "Rascador Gato",
     "category": "mascotas",
-    "price": 237.09,
-    "rating": 4.8,
-    "url": "https://www.amazon.es/s?k=bebedero+automatico&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=80737",
+    "price": 46.89,
+    "rating": 4.3,
+    "url": "https://www.amazon.es/s?k=rascador+gato&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Rascador+Gato&sig=27",
     "tags": [
       "mascotas",
       "auto"
     ]
   },
   {
-    "id": "mas-0106",
-    "title": "Bebedero Automatico Pro",
+    "id": "mas-0028",
+    "title": "Rascador Gato Pro",
     "category": "mascotas",
-    "price": 132.67,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=bebedero+automatico&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=80737",
+    "price": 176.3,
+    "rating": 4.6,
+    "url": "https://www.amazon.es/s?k=rascador+gato&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Rascador+Gato+Pro&sig=28",
     "tags": [
       "mascotas",
       "auto"
     ]
   },
   {
-    "id": "mas-0107",
+    "id": "mas-0029",
     "title": "Transportin Gato",
     "category": "mascotas",
-    "price": 65.3,
-    "rating": 3.8,
+    "price": 96.94,
+    "rating": 4.9,
     "url": "https://www.amazon.es/s?k=transportin+gato&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=51865",
+    "image": "https://source.unsplash.com/800x600/?Transportin+Gato&sig=29",
     "tags": [
       "mascotas",
       "auto"
     ]
   },
   {
-    "id": "mas-0108",
+    "id": "mas-0030",
     "title": "Transportin Gato Pro",
     "category": "mascotas",
-    "price": 243.9,
-    "rating": 4.7,
+    "price": 124.69,
+    "rating": 4.2,
     "url": "https://www.amazon.es/s?k=transportin+gato&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=51865",
+    "image": "https://source.unsplash.com/800x600/?Transportin+Gato+Pro&sig=30",
     "tags": [
       "mascotas",
       "auto"
     ]
   },
   {
-    "id": "mas-0109",
+    "id": "mas-0031",
+    "title": "Bebedero Automatico",
+    "category": "mascotas",
+    "price": 182.94,
+    "rating": 4.8,
+    "url": "https://www.amazon.es/s?k=bebedero+automatico&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Bebedero+Automatico&sig=31",
+    "tags": [
+      "mascotas",
+      "auto"
+    ]
+  },
+  {
+    "id": "mas-0032",
+    "title": "Bebedero Automatico Pro",
+    "category": "mascotas",
+    "price": 98.36,
+    "rating": 3.9,
+    "url": "https://www.amazon.es/s?k=bebedero+automatico&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Bebedero+Automatico+Pro&sig=32",
+    "tags": [
+      "mascotas",
+      "auto"
+    ]
+  },
+  {
+    "id": "mas-0033",
     "title": "Cortaunas Perro",
     "category": "mascotas",
-    "price": 243.99,
-    "rating": 4.7,
+    "price": 24.36,
+    "rating": 4.1,
     "url": "https://www.amazon.es/s?k=cortaunas+perro&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=19877",
+    "image": "https://source.unsplash.com/800x600/?Cortaunas+Perro&sig=33",
     "tags": [
       "mascotas",
       "auto"
     ]
   },
   {
-    "id": "mas-0110",
+    "id": "mas-0034",
     "title": "Cortaunas Perro Pro",
     "category": "mascotas",
-    "price": 119.92,
-    "rating": 4.5,
+    "price": 75.96,
+    "rating": 4.8,
     "url": "https://www.amazon.es/s?k=cortaunas+perro&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=19877",
+    "image": "https://source.unsplash.com/800x600/?Cortaunas+Perro+Pro&sig=34",
     "tags": [
       "mascotas",
       "auto"
     ]
   },
   {
-    "id": "jug-0111",
+    "id": "mas-0035",
+    "title": "Peine Perro",
+    "category": "mascotas",
+    "price": 133.61,
+    "rating": 4.3,
+    "url": "https://www.amazon.es/s?k=peine+perro&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Peine+Perro&sig=35",
+    "tags": [
+      "mascotas",
+      "auto"
+    ]
+  },
+  {
+    "id": "mas-0036",
+    "title": "Peine Perro Pro",
+    "category": "mascotas",
+    "price": 150.56,
+    "rating": 4.0,
+    "url": "https://www.amazon.es/s?k=peine+perro&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Peine+Perro+Pro&sig=36",
+    "tags": [
+      "mascotas",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0037",
+    "title": "Robot Aspirador",
+    "category": "hogar",
+    "price": 132.28,
+    "rating": 4.1,
+    "url": "https://www.amazon.es/s?k=robot+aspirador&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Robot+Aspirador&sig=37",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0038",
+    "title": "Robot Aspirador Pro",
+    "category": "hogar",
+    "price": 130.73,
+    "rating": 4.6,
+    "url": "https://www.amazon.es/s?k=robot+aspirador&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Robot+Aspirador+Pro&sig=38",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0039",
+    "title": "Lampara Led",
+    "category": "hogar",
+    "price": 121.15,
+    "rating": 4.0,
+    "url": "https://www.amazon.es/s?k=lampara+led&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Lampara+Led&sig=39",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0040",
+    "title": "Lampara Led Pro",
+    "category": "hogar",
+    "price": 53.03,
+    "rating": 4.5,
+    "url": "https://www.amazon.es/s?k=lampara+led&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Lampara+Led+Pro&sig=40",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0041",
+    "title": "Freidora Sin Aceite",
+    "category": "hogar",
+    "price": 17.7,
+    "rating": 4.4,
+    "url": "https://www.amazon.es/s?k=freidora+sin+aceite&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Freidora+Sin+Aceite&sig=41",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0042",
+    "title": "Freidora Sin Aceite Pro",
+    "category": "hogar",
+    "price": 77.64,
+    "rating": 4.0,
+    "url": "https://www.amazon.es/s?k=freidora+sin+aceite&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Freidora+Sin+Aceite+Pro&sig=42",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0043",
+    "title": "Purificador Aire",
+    "category": "hogar",
+    "price": 148.39,
+    "rating": 4.4,
+    "url": "https://www.amazon.es/s?k=purificador+aire&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Purificador+Aire&sig=43",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0044",
+    "title": "Purificador Aire Pro",
+    "category": "hogar",
+    "price": 50.81,
+    "rating": 4.4,
+    "url": "https://www.amazon.es/s?k=purificador+aire&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Purificador+Aire+Pro&sig=44",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0045",
+    "title": "Humidificador",
+    "category": "hogar",
+    "price": 176.1,
+    "rating": 4.6,
+    "url": "https://www.amazon.es/s?k=humidificador&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Humidificador&sig=45",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "hog-0046",
+    "title": "Humidificador Pro",
+    "category": "hogar",
+    "price": 138.99,
+    "rating": 4.7,
+    "url": "https://www.amazon.es/s?k=humidificador&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Humidificador+Pro&sig=46",
+    "tags": [
+      "hogar",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0047",
+    "title": "Mancuernas",
+    "category": "fitness",
+    "price": 194.96,
+    "rating": 4.2,
+    "url": "https://www.amazon.es/s?k=mancuernas&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Mancuernas&sig=47",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0048",
+    "title": "Mancuernas Pro",
+    "category": "fitness",
+    "price": 114.88,
+    "rating": 4.3,
+    "url": "https://www.amazon.es/s?k=mancuernas&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Mancuernas+Pro&sig=48",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0049",
+    "title": "Kettlebell",
+    "category": "fitness",
+    "price": 108.24,
+    "rating": 3.9,
+    "url": "https://www.amazon.es/s?k=kettlebell&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Kettlebell&sig=49",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0050",
+    "title": "Kettlebell Pro",
+    "category": "fitness",
+    "price": 66.81,
+    "rating": 3.9,
+    "url": "https://www.amazon.es/s?k=kettlebell&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Kettlebell+Pro&sig=50",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0051",
+    "title": "Banda Elastica",
+    "category": "fitness",
+    "price": 159.05,
+    "rating": 3.8,
+    "url": "https://www.amazon.es/s?k=banda+elastica&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Banda+Elastica&sig=51",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0052",
+    "title": "Banda Elastica Pro",
+    "category": "fitness",
+    "price": 53.73,
+    "rating": 4.8,
+    "url": "https://www.amazon.es/s?k=banda+elastica&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Banda+Elastica+Pro&sig=52",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0053",
+    "title": "Comba",
+    "category": "fitness",
+    "price": 162.51,
+    "rating": 4.8,
+    "url": "https://www.amazon.es/s?k=comba&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Comba&sig=53",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0054",
+    "title": "Comba Pro",
+    "category": "fitness",
+    "price": 169.52,
+    "rating": 4.5,
+    "url": "https://www.amazon.es/s?k=comba&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Comba+Pro&sig=54",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0055",
+    "title": "Colchoneta",
+    "category": "fitness",
+    "price": 105.05,
+    "rating": 4.3,
+    "url": "https://www.amazon.es/s?k=colchoneta&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Colchoneta&sig=55",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "fit-0056",
+    "title": "Colchoneta Pro",
+    "category": "fitness",
+    "price": 50.98,
+    "rating": 4.9,
+    "url": "https://www.amazon.es/s?k=colchoneta&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Colchoneta+Pro&sig=56",
+    "tags": [
+      "fitness",
+      "auto"
+    ]
+  },
+  {
+    "id": "jug-0057",
     "title": "Lego",
     "category": "juguetes",
-    "price": 212.13,
-    "rating": 4.8,
+    "price": 133.61,
+    "rating": 4.1,
     "url": "https://www.amazon.es/s?k=lego&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=59421",
+    "image": "https://source.unsplash.com/800x600/?Lego&sig=57",
     "tags": [
       "juguetes",
       "auto"
     ]
   },
   {
-    "id": "jug-0112",
+    "id": "jug-0058",
     "title": "Lego Pro",
     "category": "juguetes",
-    "price": 151.05,
-    "rating": 4.4,
+    "price": 43.04,
+    "rating": 4.2,
     "url": "https://www.amazon.es/s?k=lego&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=59421",
+    "image": "https://source.unsplash.com/800x600/?Lego+Pro&sig=58",
     "tags": [
       "juguetes",
       "auto"
     ]
   },
   {
-    "id": "jug-0113",
-    "title": "Dron Infantil",
-    "category": "juguetes",
-    "price": 381.25,
-    "rating": 4.4,
-    "url": "https://www.amazon.es/s?k=dron+infantil&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=49758",
-    "tags": [
-      "juguetes",
-      "auto"
-    ]
-  },
-  {
-    "id": "jug-0114",
-    "title": "Dron Infantil Pro",
-    "category": "juguetes",
-    "price": 13.61,
-    "rating": 4.9,
-    "url": "https://www.amazon.es/s?k=dron+infantil&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=49758",
-    "tags": [
-      "juguetes",
-      "auto"
-    ]
-  },
-  {
-    "id": "jug-0115",
+    "id": "jug-0059",
     "title": "Puzzle 1000 Piezas",
     "category": "juguetes",
-    "price": 109.22,
-    "rating": 4.9,
+    "price": 81.57,
+    "rating": 4.6,
     "url": "https://www.amazon.es/s?k=puzzle+1000+piezas&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=85101",
+    "image": "https://source.unsplash.com/800x600/?Puzzle+1000+Piezas&sig=59",
     "tags": [
       "juguetes",
       "auto"
     ]
   },
   {
-    "id": "jug-0116",
+    "id": "jug-0060",
     "title": "Puzzle 1000 Piezas Pro",
     "category": "juguetes",
-    "price": 18.34,
-    "rating": 4.3,
+    "price": 137.46,
+    "rating": 4.8,
     "url": "https://www.amazon.es/s?k=puzzle+1000+piezas&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=85101",
+    "image": "https://source.unsplash.com/800x600/?Puzzle+1000+Piezas+Pro&sig=60",
     "tags": [
       "juguetes",
       "auto"
     ]
   },
   {
-    "id": "jug-0117",
+    "id": "jug-0061",
     "title": "Juego Mesa",
     "category": "juguetes",
-    "price": 399.46,
-    "rating": 4.3,
+    "price": 147.24,
+    "rating": 4.6,
     "url": "https://www.amazon.es/s?k=juego+mesa&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=47491",
+    "image": "https://source.unsplash.com/800x600/?Juego+Mesa&sig=61",
     "tags": [
       "juguetes",
       "auto"
     ]
   },
   {
-    "id": "jug-0118",
+    "id": "jug-0062",
     "title": "Juego Mesa Pro",
     "category": "juguetes",
-    "price": 260.63,
-    "rating": 4.8,
+    "price": 26.16,
+    "rating": 4.1,
     "url": "https://www.amazon.es/s?k=juego+mesa&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=47491",
+    "image": "https://source.unsplash.com/800x600/?Juego+Mesa+Pro&sig=62",
     "tags": [
       "juguetes",
       "auto"
     ]
   },
   {
-    "id": "jug-0119",
-    "title": "Circuito Coches",
+    "id": "jug-0063",
+    "title": "Dron Infantil",
     "category": "juguetes",
-    "price": 102.19,
+    "price": 186.27,
     "rating": 4.6,
-    "url": "https://www.amazon.es/s?k=circuito+coches&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=90611",
+    "url": "https://www.amazon.es/s?k=dron+infantil&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Dron+Infantil&sig=63",
     "tags": [
       "juguetes",
       "auto"
     ]
   },
   {
-    "id": "jug-0120",
-    "title": "Circuito Coches Pro",
+    "id": "jug-0064",
+    "title": "Dron Infantil Pro",
     "category": "juguetes",
-    "price": 15.8,
-    "rating": 4.7,
-    "url": "https://www.amazon.es/s?k=circuito+coches&tag=teknovashop25-21",
-    "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&sat=-5&blend=000&blend-mode=normal&blend-alpha=10&sig=90611",
+    "price": 81.37,
+    "rating": 4.8,
+    "url": "https://www.amazon.es/s?k=dron+infantil&tag=teknovashop25-21",
+    "image": "https://source.unsplash.com/800x600/?Dron+Infantil+Pro&sig=64",
     "tags": [
       "juguetes",
       "auto"

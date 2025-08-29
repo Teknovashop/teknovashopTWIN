@@ -7,7 +7,7 @@ export async function GET(req: Request): Promise<Response> {
 
   let url: string = src;
   const init: RequestInit & { redirect: RequestRedirect } = {
-    headers: { 'User-Agent': 'Mozilla/5.0 (TeknovashopImgProxy/1.1)' },
+    headers: { 'User-Agent': 'Mozilla/5.0 (TeknovashopImgProxy/1.3)' },
     cache: 'no-store',
     redirect: 'manual',
   };

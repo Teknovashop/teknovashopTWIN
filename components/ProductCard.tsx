@@ -9,8 +9,8 @@ export type Product = {
 }
 
 export default function ProductCard({ p }: { p: Product }) {
-  const guessed = p.image && p.image.trim().length ? p.image : `/api/photo?query=${encodeURIComponent(p.title)}`
-  const [imgSrc, setImgSrc] = useState(guessed)
+  const initial = p.image && p.image.trim().length ? p.image : `/api/photo?query=${encodeURIComponent(p.title)}`
+  const [imgSrc, setImgSrc] = useState(initial)
 
   useEffect(() => {
     const src = p.image && p.image.trim().length ? p.image : `/api/photo?query=${encodeURIComponent(p.title)}`
@@ -39,11 +39,7 @@ export default function ProductCard({ p }: { p: Product }) {
           referrerPolicy="no-referrer"
           onError={(e) => {
             const el = e.currentTarget as HTMLImageElement
-            if (!el.src.includes('/api/photo?query=')) {
-              el.src = `/api/photo?query=${encodeURIComponent(p.title)}`
-            } else {
-              el.src = '/placeholder.png'
-            }
+            if (!el.src.endsWith('/placeholder.png')) el.src = '/placeholder.png'
           }}
         />
       </div>

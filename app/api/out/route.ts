@@ -12,7 +12,6 @@ export async function GET(req: Request) {
   const pid = process.env.NEXT_PUBLIC_SHEIN_PID || '5798341419'
 
   let target = raw
-
   if (provider === 'amazon') target = buildAmazonLink({ title, asin, tag })
   else if (provider === 'shein') target = buildSheinLink({ title, pid })
   else if (!raw) target = buildAmazonLink({ title, asin, tag })
